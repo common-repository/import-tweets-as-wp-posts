@@ -1,0 +1,253 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tweets to Posts v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-11-07 12:39:23+0000\n"
+"Last-Translator: admin <enguerrandeep@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: admin.php:18
+#@ tweets-to-posts
+msgid "Tweets query options"
+msgstr ""
+
+#: admin.php:27
+#@ tweets-to-posts
+msgid "Query type:"
+msgstr ""
+
+#: admin.php:29
+#@ tweets-to-posts
+msgid "Query (will search in tweets content)"
+msgstr ""
+
+#: admin.php:30
+#@ tweets-to-posts
+msgid "User (find tweets from an user)"
+msgstr ""
+
+#: admin.php:31
+#@ tweets-to-posts
+msgid "Hashtag (find tweets with a hashtag)"
+msgstr ""
+
+#: admin.php:35
+#@ tweets-to-posts
+msgid "Query text:"
+msgstr ""
+
+#: admin.php:36
+#@ tweets-to-posts
+msgid "Don't type # or @, just the query."
+msgstr ""
+
+#: admin.php:39
+#@ tweets-to-posts
+msgid "Only tweets with image?"
+msgstr ""
+
+#: admin.php:42
+#: admin.php:51
+#@ tweets-to-posts
+msgid "Yes"
+msgstr ""
+
+#: admin.php:43
+#: admin.php:52
+#@ tweets-to-posts
+msgid "No"
+msgstr ""
+
+#: admin.php:47
+#@ tweets-to-posts
+msgid "Exclude replies?"
+msgstr ""
+
+#: admin.php:56
+#@ tweets-to-posts
+msgid "Tweets number per page?"
+msgstr ""
+
+#: admin.php:57
+#@ tweets-to-posts
+msgid "Default: 30"
+msgstr ""
+
+#: admin.php:64
+#@ tweets-to-posts
+msgid "List of last Twitter posts for the query:"
+msgstr ""
+
+#: admin.php:69
+#@ tweets-to-posts
+msgid "Preview/thumbnail"
+msgstr ""
+
+#: admin.php:70
+#@ tweets-to-posts
+msgid "Author username"
+msgstr ""
+
+#: admin.php:71
+#@ tweets-to-posts
+msgid "Tweet text"
+msgstr ""
+
+#: admin.php:72
+#@ tweets-to-posts
+msgid "Date"
+msgstr ""
+
+#: admin.php:73
+#@ tweets-to-posts
+msgid "Action"
+msgstr ""
+
+#: admin.php:78
+#@ tweets-to-posts
+msgid "Load more tweets"
+msgstr ""
+
+#: admin.php:81
+#@ tweets-to-posts
+msgid "Your Twitter API access is not defined, go set it on the settings page."
+msgstr ""
+
+#: options.php:12
+#@ tweets-to-posts
+msgid "Twitter API settings:"
+msgstr ""
+
+#: options.php:16
+#@ tweets-to-posts
+msgid "Twitter API Consumer key:"
+msgstr ""
+
+#: options.php:20
+#@ tweets-to-posts
+msgid "Twitter API Consumer secret:"
+msgstr ""
+
+#: options.php:24
+#@ tweets-to-posts
+msgid "Twitter API Access token:"
+msgstr ""
+
+#: options.php:28
+#@ tweets-to-posts
+msgid "Twitter API Access secret:"
+msgstr ""
+
+#: options.php:35
+#@ tweets-to-posts
+msgid "Wordpress feed options:"
+msgstr ""
+
+#: options.php:38
+#@ tweets-to-posts
+msgid "Post type to feed:"
+msgstr ""
+
+#: options.php:49
+#@ tweets-to-posts
+msgid "Category to feed:"
+msgstr ""
+
+#: options.php:67
+#@ tweets-to-posts
+msgid "Use a custom title?"
+msgstr ""
+
+#: options.php:68
+#, php-format
+#@ tweets-to-posts
+msgid "e.g : Last tweet by %a%, posted on %d%"
+msgstr ""
+
+#: options.php:69
+#, php-format
+#@ tweets-to-posts
+msgid "You can use Tweet date (%d%) and Tweet (%a%) author to customize your title"
+msgstr ""
+
+#: options.php:74
+#@ tweets-to-posts
+msgid "How can I get a Twitter API key and access tokens?"
+msgstr ""
+
+#: options.php:76
+#@ tweets-to-posts
+msgid "To use this plugin, you'll need to create a Google Youtube API key. Dealing with Google Developers Console can be a bit confusing, you need to : create a project, make the API data you need active and generate a public API key. Here's how to do that:"
+msgstr ""
+
+#: options.php:81
+#@ tweets-to-posts
+msgid "Login to Google using your Google account."
+msgstr ""
+
+#: options.php:83
+#@ tweets-to-posts
+msgid "Go to the <a target=\"_blank\" href=\"https://console.developers.google.com/project\">Developers Console > Projects</a>"
+msgstr ""
+
+#: options.php:84
+#@ tweets-to-posts
+msgid "Click on \"Create a project\" (you'll need to give it a title and an ID)"
+msgstr ""
+
+#: options.php:85
+#@ tweets-to-posts
+msgid "When your project his created, click on it on the project list"
+msgstr ""
+
+#: options.php:86
+#@ tweets-to-posts
+msgid "Go to the section API and authentication > API, and search for YouTube Data API v3, and click on the button on the right to make this API active."
+msgstr ""
+
+#: options.php:87
+#@ tweets-to-posts
+msgid "Go to the Credentials section > Access to the public API anc click on the button \"Make a key\" > Server key"
+msgstr ""
+
+#: options.php:88
+#@ tweets-to-posts
+msgid "On the next box, you'll need to tell on which domains you allow the use of your app (e.g. 127.0.0.1, www.mydomain.com, etc)."
+msgstr ""
+
+#: options.php:89
+#@ tweets-to-posts
+msgid "Now it should have generated a API Key (e.g. AIzaFyD0aPCQjLFRbLnh4RKbVBlBgVCVSwjbFAg), copy-paste it on the box above."
+msgstr ""
+
+#: options.php:90
+#@ tweets-to-posts
+msgid "It's done, congrats :)"
+msgstr ""
+
+#: tweets-to-posts.php:187
+#: tweets-to-posts.php:188
+#@ tweets_to_posts
+msgid "Twitter to Posts"
+msgstr ""
+
+#: tweets-to-posts.php:279
+#: tweets-to-posts.php:280
+#@ default
+msgid "T2P rejects"
+msgstr ""
+

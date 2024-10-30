@@ -1,0 +1,268 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Import Tweets as WP Posts v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2017-05-19 14:36:34+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: admin.php:23
+#@ tweets-to-posts
+msgid "Tweets query options"
+msgstr "Options de recherche de tweet"
+
+#: admin.php:32
+#@ tweets-to-posts
+msgid "Query type:"
+msgstr "Type de recherche :"
+
+#: admin.php:34
+#@ tweets-to-posts
+msgid "Query (will search in tweets content)"
+msgstr "Recherche libre (dans les contenus de tweets)"
+
+#: admin.php:35
+#@ tweets-to-posts
+msgid "User (find tweets from an user)"
+msgstr "Utilisateur (pour trouver des tweets d'un utilisateur)"
+
+#: admin.php:36
+#@ tweets-to-posts
+msgid "Hashtag (find tweets with a hashtag)"
+msgstr "Hashtag (pour trouver des tweets contenant un hashtag spécifique)"
+
+#: admin.php:40
+#@ tweets-to-posts
+msgid "Query text:"
+msgstr "Requête :"
+
+#: admin.php:41
+#@ tweets-to-posts
+msgid "Don't type # or @, just the query."
+msgstr "Ne tapez pas # ou @, juste la requête"
+
+#: admin.php:44
+#@ tweets-to-posts
+msgid "Only tweets with image?"
+msgstr "Trouver uniquement des tweets contenant une image ?"
+
+#: admin.php:47
+#: admin.php:56
+#@ tweets-to-posts
+msgid "Yes"
+msgstr "Oui"
+
+#: admin.php:48
+#: admin.php:57
+#@ tweets-to-posts
+msgid "No"
+msgstr "Non"
+
+#: admin.php:52
+#@ tweets-to-posts
+msgid "Exclude replies?"
+msgstr "Exclure les réponses de tweets ?"
+
+#: admin.php:61
+#@ tweets-to-posts
+msgid "Tweets number per page?"
+msgstr "Nombre de tweets par page ?"
+
+#: admin.php:62
+#@ tweets-to-posts
+msgid "Default: 30"
+msgstr "Par défaut : 30"
+
+#: admin.php:106
+#@ tweets-to-posts
+msgid "List of last Twitter posts for the query:"
+msgstr "Liste des dernières tweets pour la requête :"
+
+#: admin.php:111
+#@ tweets-to-posts
+msgid "Preview/thumbnail"
+msgstr "Preview / Miniature"
+
+#: admin.php:112
+#@ tweets-to-posts
+msgid "Author username"
+msgstr "Nom d'utilisateur"
+
+#: admin.php:113
+#@ tweets-to-posts
+msgid "Tweet text"
+msgstr "Contenu du tweet"
+
+#: admin.php:114
+#@ tweets-to-posts
+msgid "Date"
+msgstr "Date"
+
+#: admin.php:115
+#@ tweets-to-posts
+msgid "Action"
+msgstr ""
+
+#: admin.php:120
+#@ tweets-to-posts
+msgid "Load more tweets"
+msgstr "Charger plus de tweets"
+
+#: admin.php:123
+#@ tweets-to-posts
+msgid "Your Twitter API access is not defined, go set it on the settings page."
+msgstr "Votre clé API Twitter n'est pas renseignée. Faites le sur la page de réglages."
+
+#: options.php:12
+#@ tweets-to-posts
+msgid "Twitter API settings:"
+msgstr "Réglages d'API Twitter :"
+
+#: options.php:16
+#@ tweets-to-posts
+msgid "Twitter API Consumer key:"
+msgstr ""
+
+#: options.php:20
+#@ tweets-to-posts
+msgid "Twitter API Consumer secret:"
+msgstr ""
+
+#: options.php:24
+#@ tweets-to-posts
+msgid "Twitter API Access token:"
+msgstr ""
+
+#: options.php:28
+#@ tweets-to-posts
+msgid "Twitter API Access secret:"
+msgstr ""
+
+#: options.php:35
+#@ tweets-to-posts
+msgid "Wordpress feed options:"
+msgstr "Options de remplissage de Wordpress "
+
+#: admin.php:65
+#@ tweets-to-posts
+msgid "Post type to feed:"
+msgstr "Type de post à alimenter :"
+
+#: admin.php:84
+#@ tweets-to-posts
+msgid "Category to feed:"
+msgstr "Catégorie à alimenter :"
+
+#: options.php:38
+#@ tweets-to-posts
+msgid "Use a custom title?"
+msgstr "Utiliser un titre personnalisé ?"
+
+#: options.php:39
+#, php-format
+#@ tweets-to-posts
+msgid "e.g : Last tweet by %a%, posted on %d%"
+msgstr "Par exemple : Dernier tweet par %a%, posté le %d% (%a% : auteur, %d% pour la date)"
+
+#: options.php:40
+#, php-format
+#@ tweets-to-posts
+msgid "You can use Tweet date (%d%) and Tweet (%a%) author to customize your title"
+msgstr "Vous pouvez utiliser la date d'un tweet (%d%) et l'auteur d'un tweet (%a%)."
+
+#: options.php:45
+#@ tweets-to-posts
+msgid "How can I get a Twitter API key and access tokens?"
+msgstr "Comment récupérer une clé API Twitter et des tokens d'accès ?"
+
+#: options.php:60
+#@ tweets-to-posts
+msgid "It's done, congrats :)"
+msgstr "C'est fait, bien joué !"
+
+#: import-tweets-as-wp-posts.php:336
+#: import-tweets-as-wp-posts.php:337
+#@ default
+msgid "T2P rejects"
+msgstr ""
+
+#: options.php:52
+#@ tweets-to-posts
+msgid "Login to https://apps.twitter.com/ using your Twitter account"
+msgstr "Connectez-vous sur https://apps.twitter.com/ avec votre compte Twitter"
+
+#: options.php:54
+#@ tweets-to-posts
+msgid "Click on \"Create new app\""
+msgstr "Cliquez sur \\\"Create new app\\\""
+
+#: options.php:56
+#@ tweets-to-posts
+msgid "Set up your Twitter app"
+msgstr "Configurez votre appli Twitter"
+
+#: options.php:57
+#@ tweets-to-posts
+msgid "On your new app dashboard, click on Keys and access tokens : there you can find your Consumer Key and your Consumer Secret"
+msgstr "Sur le tableau de bord de votre app, les Consumer Key et Consumer Secret sont disponibles"
+
+#: options.php:58
+#@ tweets-to-posts
+msgid "On the bottom of this page, click on Create My access token and token secret"
+msgstr "En bas de page, cliquez sur \\\"Create My access token and token secret\\\""
+
+#: options.php:59
+#@ tweets-to-posts
+msgid "Now that you have your Consumer Key, your Consumer Secret, your Access Token and your Access Token Secret copy them into the Tweets to Posts Settings page"
+msgstr "Maintenant, vous avez tous les accès requis pour communiquer avec l'API Twitter (Consumer Key, Consumer Secret, Access Token, Access Token Secret). Gardez-les sous la main et copiez les dans la page de réglages Tweets to Posts."
+
+#: options.php:47
+#@ tweets-to-posts
+msgid "To use this plugin, you'll need to create a Twitter API key. Dealing with Twitter Developers Console can be a bit confusing. Here's how to do that:"
+msgstr "Pour utiliser ce plugin, vous allez avoir besoin d'une clé API Twitter. Ça peut être un peu délicat pour les plus novices, mais voici comment faire :"
+
+#: admin.php:7
+#@ tweets-to-posts
+msgid "Loading..."
+msgstr "Chargement..."
+
+#: admin.php:8
+#@ tweets-to-posts
+msgid "Post added !"
+msgstr "Post ajouté !"
+
+#: admin.php:9
+#@ tweets-to-posts
+msgid "Tweet rejected !"
+msgstr "Tweet rejeté !"
+
+#: admin.php:10
+#@ tweets-to-posts
+msgid "Approve"
+msgstr "Ajouter"
+
+#: admin.php:11
+#@ tweets-to-posts
+msgid "Deny"
+msgstr "Rejeter"
+
+#: import-tweets-as-wp-posts.php:244
+#: import-tweets-as-wp-posts.php:245
+#@ tweets_to_posts
+msgid "Twitter Importer"
+msgstr ""
+
